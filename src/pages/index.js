@@ -1,8 +1,10 @@
 import React from 'react'
+import styles from './index.module.css'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
+  <div className={styles.container}>
+    <div className={styles.item}>Contact</div>
+    <div className={styles.item}>General</div>
   </div>
 )
 
