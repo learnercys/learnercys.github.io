@@ -1,0 +1,18 @@
+.experience {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+/* inside experience should be only two childs */
+.experience > div:first-child {
+    flex: 1 auto;
+}
+
+.experience > div:last-child {
+    flex-grow: 3;
+}
+
+.city {
+    float: right;
+    font-size: 0.6rem;
+}

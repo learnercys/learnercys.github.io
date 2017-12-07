@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+}
+
+.container a {
+    color: hsla(0, 0%, 0%, .8);
+    text-decoration: none;
+}
+
+.container p {
+    margin-bottom: 0.45rem;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container li {
+    flex: 1 auto;
+}
+
+@media (min-width: 768px) {
+    .container ul {
+        text-align: right;
+    }
+
+    .container li {
+        flex: 1 100%;
+    }
+}

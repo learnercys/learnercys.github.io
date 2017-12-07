@@ -1,7 +1,19 @@
 .container {
     display: flex;
+    flex-flow: row wrap;
 }
 
-.item {
-    background-color: white
+.container > div {
+    flex: 1 100%;
+    padding: 0.4rem;
+}
+
+@media (min-width: 768px) {
+    .container > div {
+        flex: 1;
+    }
+
+    .container > div:last-child {
+        flex: 3 0px;
+    }
 }
