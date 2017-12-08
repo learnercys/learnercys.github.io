@@ -5,9 +5,9 @@ class General extends Component {
     render() {
         const experiences = [
             {
-                year: '2015-present',
-                company: 'Paypal',
-                city: 'Guatemala city',
+                time: '2015',
+                header: 'Paypal',
+                place: 'Guatemala city',
                 title: 'Software Engineer',
                 description: `Paypal is a company operating a worldwide online payments system that supports
                     online money transfers and serves as an electronic alternative to traditional
@@ -19,9 +19,9 @@ class General extends Component {
                 ]
 
             }, {
-                year: '2014-2015',
-                company: 'Kipo Business',
-                city: 'Guatemala city',
+                time: '2014-2015',
+                header: 'Kipo Business',
+                place: 'Guatemala city',
                 title: 'Frontend Developer',
                 description: `Kipo Business is a platform designed to manage and monitor activities in real
                     time for your employees that work out of the o ice. As a Frontend Developer I manage and
@@ -34,63 +34,79 @@ class General extends Component {
             }
         ];
 
+        const experience = {
+            header: 'Experience',
+            achievements: experiences,
+        };
+
+
+        const education = {
+            header: 'Education',
+            achievements: [
+                {
+                    time: '2011-2016',
+                    header: 'Science and Systems Engineering',
+                    place: 'Universidad de San Carlos de Guatemala.',
+                }
+            ],
+        };
+
+        const volunter = {
+            header: 'Volunter',
+            achievements: [
+                {
+                    time: '2017',
+                    header: 'NodeSchool',
+                    place: 'Guatemala city',
+                    title: 'Mentor',
+                    description: `NodeSchool is a worldwide open source project run by volunteers with two goals: Create
+                        high quality programming and to host community learning events. As a NodeSchool Mentor
+                        I help from beginners to experts to learn about web technologies.`,
+
+                }
+            ],
+        };
+
+        const sections = [
+            experience,
+            education,
+            volunter,
+        ];
+
         return (
             <div>
-                <div>
-                    <h4>Experience</h4>
-                    {experiences.map(experience => {
-                        return (
-                            <div className={styles.section}>
-                                <div>{experience.year}</div>
-                                <div>
-                                    <p>
-                                        <strong>{experience.company}</strong>
-                                        <span className={styles.city}>{experience.city}</span>
-                                    </p>
-                                    <p className={styles.title}>{experience.title}</p>
-                                    <p>{experience.description}</p>
-                                    {this.renderTasks(experience)}
-                                </div>
-                            </div>
-                        );
-                    })}
-
-                    <h4>Education</h4>
-                    <div className={styles.section}>
-                        <div>2011-2016</div>
-                        <div>
-                            <p>
-                                <strong>Science and Systems Engineering</strong>
-                                <span className={styles.university}>Universidad de San Carlos de Guatemala.</span>
-                            </p>
-                        </div>
-                    </div>
-
-                    <h4>Volunter</h4>
-                    <div className={styles.section}>
-                        <div>2017-present</div>
-                        <div>
-                            <p>
-                                <strong>NodeSchool</strong>
-                                <span className={styles.city}>Guatemala city</span>
-                            </p>
-                            <p>
-                                NodeSchool is a worldwide open source project run by volunteers with two goals: Create
-                                high quality programming and to host community learning events. As a NodeSchool Mentor
-                                I help from beginners to experts to learn about web technologies.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                {sections.map(section => {
+                    return (
+                        <section>
+                            <h4>{section.header}</h4>
+                            {section.achievements.map(achievement => {
+                                return (
+                                    <div className={styles.achievement}>
+                                        <div>{achievement.time}</div>
+                                        <div>
+                                            <p>
+                                                <strong>{achievement.header}</strong>
+                                                <span className={styles.city}>{achievement.place}</span>
+                                            </p>
+                                            <p className={styles.title}>{achievement.title}</p>
+                                            <p className={styles.description}>{achievement.description}</p>
+                                            {this.renderTasks(achievement.tasks)}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </section>
+                    );
+                })}
             </div>
         );
     }
 
-    renderTasks(experience) {
-        if (experience.tasks) {
+    renderTasks(tasks) {
+        if (tasks) {
             return (
                 <ul>
-                    {experience.tasks.map(task => {
+                    {tasks.map(task => {
                         return (
                             <li>{task}</li>
                         );

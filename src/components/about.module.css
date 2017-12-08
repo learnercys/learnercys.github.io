@@ -1,6 +1,32 @@
+/* inside achievement should be only two childs */
+.achievement {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.achievement > div:first-child {
+    flex: 1 auto;
+    padding-right: 0.4rem;
+    max-width: 124px;
+}
+
+.achievement > div:last-child {
+    flex: 10 0px;
+    min-width: 270px;
+}
+
+.achievement p {
+    margin-bottom: 0.45rem;
+    text-align: justify;
+}
+
 .city {
     float: right;
     font-size: 0.6rem;
+}
+
+.description {
+    min-height: 1rem;
 }
 
 .title {
@@ -17,26 +43,4 @@
     .university {
         float: right;
     }
-}
-
-/* inside section should be only two childs */
-.section {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.section > div:first-child {
-    flex: 1 auto;
-    padding-right: 0.4rem;
-    max-width: 124px;
-}
-
-.section > div:last-child {
-    flex: 10 0px;
-    min-width: 270px;
-}
-
-.section p {
-    margin-bottom: 0.45rem;
-    text-align: justify;
 }
