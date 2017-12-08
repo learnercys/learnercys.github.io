@@ -4,7 +4,7 @@ import styles from './contact.module.css'
 class Contact extends Component {
     render() {
         return (
-            <div className={styles.container}>
+            <div className={styles.contact}>
                 <h3>Contact</h3>
                 <ul>
                     <li><a target="_blank" href="mailto:learnercys@gmail.com">learnercys@gmail.com</a></li>

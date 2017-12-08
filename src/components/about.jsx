@@ -11,8 +11,8 @@ class General extends Component {
                 title: 'Software Engineer',
                 description: `Paypal is a company operating a worldwide online payments system that supports
                     online money transfers and serves as an electronic alternative to traditional
-                    paper methods. As a Software Engineer working for Paypal I develop projects based
-                    in RESTful services using NodeJS as main technology that are required to:`,
+                    paper methods. As a Software Engineer working for Paypal I develop RESTful APIs using
+                    NodeJS as main technology that are required to:`,
                 tasks: [
                     'Handle accounts and pay bills from the U.S. to multiples countries.',
                     'Allow users to send money to multiples countries.'
@@ -23,12 +23,12 @@ class General extends Component {
                 place: 'Guatemala city',
                 title: 'Frontend Developer',
                 description: `Kipo Business is a platform designed to manage and monitor activities in real
-                    time for your employees that work out of the o ice. As a Frontend Developer I manage and
-                    schedule the development tasks, create the architecture and define the technologies to be used.`,
+                    time for your employees that work out of the office. As a Frontend Developer I managed and
+                    scheduled the development tasks, designed its components and defined the technologies to be used.`,
                 tasks: [
                     'Develop solutions for real time geolocation',
-                    'Build solutions to Data-Driven Documents based on D3js',
-                    'Integration with APIs based on RESTful Services.'
+                    'Build solutions to Data-Driven Documents based',
+                    'Integration with APIs'
                 ]
             }
         ];
@@ -50,8 +50,8 @@ class General extends Component {
             ],
         };
 
-        const volunter = {
-            header: 'Volunter',
+        const volunteer = {
+            header: 'Volunteer',
             achievements: [
                 {
                     time: '2017',
@@ -69,7 +69,7 @@ class General extends Component {
         const sections = [
             experience,
             education,
-            volunter,
+            volunteer,
         ];
 
         return (
