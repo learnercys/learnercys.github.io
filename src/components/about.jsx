@@ -45,7 +45,7 @@ class General extends Component {
                 {
                     time: '2011-2016',
                     header: 'Science and Systems Engineering',
-                    place: 'Universidad de San Carlos de Guatemala.',
+                    place: 'Universidad de San Carlos de Guatemala',
                 }
             ],
         };
@@ -77,7 +77,7 @@ class General extends Component {
                 {sections.map(section => {
                     return (
                         <section>
-                            <h4>{section.header}</h4>
+                            <h3>{section.header}</h3>
                             {section.achievements.map(achievement => {
                                 return (
                                     <div className={styles.achievement}>

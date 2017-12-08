@@ -4,8 +4,8 @@ import styles from './contact.module.css'
 class Contact extends Component {
     render() {
         return (
-            <div className={styles.container}>    
-                <h4>Contact</h4>
+            <div className={styles.container}>
+                <h3>Contact</h3>
                 <ul>
                     <li><a href="mailto:learnercys@gmail.com">learnercys@gmail.com</a></li>
                     <li><a href="https://github.com/learnercys">github</a></li>

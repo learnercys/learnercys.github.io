@@ -19,8 +19,7 @@
 
 .container li {
     flex: 1 auto;
-    padding: 0.4rem;
-    margin: 0;
+    padding: 0 0.4rem;
 }
 
 @media (min-width: 768px) {

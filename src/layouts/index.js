@@ -8,7 +8,7 @@ import styles from './index.module.css'
 const Header = () => (
     <div className={styles.header}>
         <div className={styles.box}>
-            <h1 style={{ margin: 0, fontWeight: 'lighter' }}>
+            <h1>
                 <Link
                 to="/">
                 Carlos <strong>Hernandez</strong>
