@@ -1,4 +1,4 @@
-/* inside achievement should be only two childs */
+/* inside achievement should be only two children */
 .achievement {
     display: flex;
     flex-flow: row wrap;
