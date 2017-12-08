@@ -19,14 +19,17 @@
 
 .container li {
     flex: 1 auto;
+    padding: 0.4rem;
+    margin: 0;
 }
 
 @media (min-width: 768px) {
-    .container ul {
+    .container {
         text-align: right;
     }
 
     .container li {
         flex: 1 100%;
+        padding-left: 0;
     }
 }
