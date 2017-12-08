@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 
-import './index.css'
 import styles from './index.module.css'
 
 const Header = () => (
@@ -15,7 +14,7 @@ const Header = () => (
                 Carlos <strong>Hernandez</strong>
                 </Link>
             </h1>
-            <p>Software Engineer</p>      
+            <p>Software Engineer</p>
         </div>
     </div>
 )

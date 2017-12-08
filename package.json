@@ -10,7 +10,9 @@
   "dependencies": {
     "gatsby": "~1.9.128",
     "gatsby-link": "~1.6.30",
-    "gatsby-plugin-react-helmet": "~1.0.8"
+    "gatsby-plugin-react-helmet": "~1.0.8",
+    "gatsby-plugin-typography": "~1.7.10",
+    "typography-theme-bootstrap": "~0.16.7"
   },
   "keywords": [
     "learnercys"

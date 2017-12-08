@@ -17,7 +17,6 @@ class General extends Component {
                     'Handle accounts and pay bills from the U.S. to multiples countries.',
                     'Allow users to send money to multiples countries.'
                 ]
-
             }, {
                 time: '2014-2015',
                 header: 'Kipo Business',
