@@ -50,8 +50,8 @@ class General extends Component {
             ],
         };
 
-        const volunter = {
-            header: 'Volunter',
+        const volunteer = {
+            header: 'Volunteer',
             achievements: [
                 {
                     time: '2017',
@@ -69,7 +69,7 @@ class General extends Component {
         const sections = [
             experience,
             education,
-            volunter,
+            volunteer,
         ];
 
         return (

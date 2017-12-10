@@ -1,34 +1,31 @@
-.container {
+.contact {
     text-align: center;
 }
 
-.container a {
+.contact a {
     color: hsla(0, 0%, 0%, .8);
     text-decoration: none;
 }
 
-.container p {
+.contact p {
     margin-bottom: 0.45rem;
 }
 
-.container ul {
+.contact ul {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
 }
 
-.container li {
+.contact li {
     flex: 1 auto;
     padding: 0 0.4rem;
 }
 
 @media (min-width: 768px) {
-    .container {
-        text-align: right;
-    }
-
-    .container li {
+    .contact li {
         flex: 1 100%;
         padding-left: 0;
+        text-align: left;
     }
 }
