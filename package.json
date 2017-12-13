@@ -22,7 +22,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "release": "npm run build && rm -rf release && mv public release",
+    "release": "npm run build && rm -rf release && mv public release && git add . && git commit -m 'Release Version'",
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
