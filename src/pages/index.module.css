@@ -8,7 +8,7 @@
     padding: 0.4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .container > div {
         flex: 1;
     }

@@ -8,6 +8,7 @@
     "url": "https://github.com/learnercys/learnercys.github.io.git"
   },
   "dependencies": {
+    "font-awesome": "~4.7.0",
     "gatsby": "~1.9.128",
     "gatsby-link": "~1.6.30",
     "gatsby-plugin-react-helmet": "~1.0.8",

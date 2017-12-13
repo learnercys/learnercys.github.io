@@ -18,11 +18,13 @@
 }
 
 .contact li {
+    color: inherit;
+    font-size: 0.8rem;
     flex: 1 auto;
     padding: 0 0.4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .contact li {
         flex: 1 100%;
         padding-left: 0;
