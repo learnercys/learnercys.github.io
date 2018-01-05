@@ -7,7 +7,7 @@ class Posts extends Component {
             <div className={styles.posts}>
                 <h2>From the beginning</h2>
                 <p>
-                    It’s 2013, just at that time I started my first job as software developer; working mostly frontend, backend
+                    It’s 2013, at that time I started my first job as software developer; working mostly frontend, backend
                     was already defined and it didn’t require to much work. Also at that time I get my first experience developing
                     with Node and Django. Node started to be a good friend, Angular and a bunch of modules helped me to do my work.
                     My comprehension about software engineering started to grow, someone talked to me about design patterns and why
