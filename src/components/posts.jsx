@@ -5,7 +5,7 @@ class Posts extends Component {
     render() {
         return (
             <div className={styles.posts}>
-                <h2>My first experience as freelancer</h2>
+                <h2>From the beginning</h2>
                 <p>
                     It’s 2013, just at that time I started my first job as software developer; working mostly frontend, backend
                     was already defined and it didn’t require to much work. Also at that time I get my first experience developing
@@ -40,9 +40,18 @@ class Posts extends Component {
 
                 <p>
                     So, I’ve just began the interview process at <a target="_blank" href="https://www.toptal.com/">TopTal.com</a> -to be
-                    part of the Back end Developers Network-, and I would really like to share my knowledge and also to continue learning
-                    with them delivering high quality software.
+                    part of the <a target="_blank" href="https://www.toptal.com/back-end">Back end Developers Network</a>-, and I would
+                    really like to share my knowledge and also to continue learning with them delivering high quality software. But how
+                    do I decided to start on boarding process with them?
                 </p>
+
+                <ul>
+                    <li>I like to work with people who’s passionate about what they do.</li>
+                    <li>
+                        Allows me to work remotely that helps me in my productivity because I can focus in write code without interruptions,
+                        and also in the comfort of my house.
+                    </li>
+                </ul>
             </div>
         )
     }

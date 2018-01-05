@@ -43,6 +43,11 @@ class General extends Component {
             header: 'Education',
             achievements: [
                 {
+                    time: '2018-present',
+                    header: 'Applied Mathematics',
+                    place: 'Universidad del Valle de Guatemala.',
+                },
+                {
                     time: '2011-2016',
                     header: 'Science and Systems Engineering',
                     place: 'Universidad de San Carlos de Guatemala',
