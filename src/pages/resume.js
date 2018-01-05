@@ -1,13 +1,13 @@
 import React from 'react'
 import styles from './index.module.css'
 import Contact from '../components/contact'
-import Posts from '../components/posts'
+import About from '../components/about'
 
-const IndexPage = () => (
+const ResumePage = () => (
     <div className={styles.container}>
         <Contact/>
-        <Posts/>
+        <About/>
     </div>
 )
 
-export default IndexPage
+export default ResumePage

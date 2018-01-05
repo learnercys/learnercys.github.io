@@ -1,0 +1,4 @@
+.posts a {
+    color: hsla(0, 0%, 0%, .8);
+    text-decoration: none;
+}
