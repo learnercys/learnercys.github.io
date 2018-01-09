@@ -11,10 +11,10 @@ class Posts extends Component {
                     was already defined and it didn’t require to much work. Also at that time I get my first experience developing
                     with Node and Django. Node started to be a good friend, Angular and a bunch of modules helped me to do my work.
                     My comprehension about software engineering started to grow, someone talked to me about design patterns and why
-                    good practices in code is essential. Then, after a while, the application started to be big and something told
-                    me that my code shouldn’t be increasing that way -something could be improved- a post talked to me about distributing
-                    single pages with Node, and that was the answer, decoupling let me thing less about all components behavior but to
-                    worry only about the one that I was working with.
+                    good practices in code is essential. Then, after a while, the application that I was working on started to be big
+                    and something told me that my code shouldn’t be increasing that way -something could be improved- a post talked
+                    to me about distributing single pages with Node, and that was the answer, decoupling let me thing less about all
+                    components behavior but to worry only about the one that I was working with.
                 </p>
 
                 <p>
@@ -39,19 +39,10 @@ class Posts extends Component {
                 </p>
 
                 <p>
-                    So, I’ve just began the interview process at <a target="_blank" href="https://www.toptal.com/">TopTal.com</a> -to be
-                    part of the <a target="_blank" href="https://www.toptal.com/back-end">Back end Developers Network</a>-, and I would
-                    really like to share my knowledge and also to continue learning with them delivering high quality software. But how
-                    do I decided to start on boarding process with them?
+                    Probability, Physics and Science itself depends on mathematics to demonstrate the true.
                 </p>
 
-                <ul>
-                    <li>I like to work with people who’s passionate about what they do.</li>
-                    <li>
-                        Allows me to work remotely that helps me in my productivity because I can focus in write code without interruptions,
-                        and also in the comfort of my house.
-                    </li>
-                </ul>
+                <p><i>Carlos.</i></p>
             </div>
         )
     }
