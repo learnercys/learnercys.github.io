@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "font-awesome": "~4.7.0",
-    "gatsby": "~1.9.128",
+    "gatsby": "~1.9.273",
     "gatsby-link": "~1.6.30",
     "gatsby-plugin-react-helmet": "~1.0.8",
     "gatsby-plugin-typography": "~1.7.10",
@@ -23,7 +23,7 @@
   "scripts": {
     "build": "gatsby build",
     "release": "npm run build && rm -rf release && mv public release && git add . && git commit -m 'Release Version'",
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

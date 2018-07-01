@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Learnercys`,
+    author: 'Carlos Hernandez <learnercys@gmail.com>',
+    siteUrl: 'https://learnercys.github.io/',
   },
   plugins: [
       `gatsby-plugin-react-helmet`,
