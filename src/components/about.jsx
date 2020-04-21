@@ -5,7 +5,20 @@ class General extends Component {
     render() {
         const experiences = [
             {
-                time: '2015',
+                time: '2018',
+                header: 'Cognits',
+                place: 'Guatemala city',
+                title: 'Technical Lead',
+                description: `Cognits provides Digital Expertise across the BaaS Marketplace for companies looking
+                    to drive quality and scale in their professional services business. With subject matter experts
+                    leading our core offerings and teams.`,
+                tasks: [
+                    'Build applications that supports customer for Retail Banking options.',
+                    'Help small business customers with features and personalization that attract and retain SMB account holders',
+                    'Provide platforms to help engage in a highly-personalized, branded messaging application that securely integrates with your online banking system.'
+                ]
+            }, {
+                time: '2015-2017',
                 header: 'Paypal',
                 place: 'Guatemala city',
                 title: 'Software Engineer',
