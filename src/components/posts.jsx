@@ -7,7 +7,6 @@ class Posts extends Component {
         return (
             <div className={styles.posts}>
                 <h2>Posts</h2>
-                <h4><Link to="/test-a-node-rest-api">Test a Node Rest API</Link></h4>
                 <h4><Link to="/from-the-beginning">From the beginning</Link></h4>
             </div>
         )
