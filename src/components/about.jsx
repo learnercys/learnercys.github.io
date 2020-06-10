@@ -9,13 +9,13 @@ class General extends Component {
                 header: 'Cognits',
                 place: 'Guatemala city',
                 title: 'Technical Lead',
-                description: `Cognits provides Digital Expertise across the BaaS Marketplace for companies looking
+                description: `Cognits provides Digital Expertise across the SaaS Marketplace for companies looking
                     to drive quality and scale in their professional services business. With subject matter experts
                     leading our core offerings and teams.`,
                 tasks: [
-                    'Build applications that supports customer for Retail Banking options.',
-                    'Help small business customers with features and personalization that attract and retain SMB account holders',
-                    'Provide platforms to help engage in a highly-personalized, branded messaging application that securely integrates with your online banking system.'
+                    'Build applications that supports customer requirements.',
+                    'Help small business customers with features and personalization that attract their customers.',
+                    'Provide platforms to help engage in a highly-personalized, branded messaging application that securely integrates with your online systems.'
                 ]
             }, {
                 time: '2015-2017',
