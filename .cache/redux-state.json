@@ -5,24 +5,24 @@
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/.cache/dev-404-page.js",
+      "component": "/Users/cxy/Documents/gh/learnercys.github.io/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/.cache/dev-404-page.js",
+      "componentPath": "/Users/cxy/Documents/gh/learnercys.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "08a63de4332439d8b0425006b52033bd",
+        "contentDigest": "bb6a4a823777a553ea0fa74632f0a45e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +34,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +51,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e41e9d96cc5b699d665db3da466ddee7",
+        "contentDigest": "b1042e94a48b4f38ec14a1da7e5c5700",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +69,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +90,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "53569264f96058d9e6d23b78bcada7c6",
+        "contentDigest": "1bf9c688ee3e6d25222d0304cce344fa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +109,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +126,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a93427e032b9fad2fb85a570f0119f04",
+        "contentDigest": "7a9010d320a311df1792c85e38607329",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +144,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +161,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "74d77b5bb8b65cb5932b0ae46d4c885c",
+        "contentDigest": "35d2603c4399c8943c0f590851b8b505",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +180,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +197,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8ebf2d9ba2d75834bb8abc8e34fc939f",
+        "contentDigest": "87b62f65cbc964993bfdc1b3c0e329f8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.8",
@@ -215,7 +215,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Stub description for gatsby-plugin-react-helmet",
@@ -224,9 +224,7 @@
         "keywords": [
           "gatsby"
         ],
-        "author": {
-          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
-        },
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
         "license": "MIT",
         "dependencies": [
           {
@@ -255,13 +253,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "74e776873cf7bf3a0a223462df92dab3",
+        "contentDigest": "31639ea6d5fd16f9fdfd558807424ba5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-typography": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-typography",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-typography",
       "id": "Plugin gatsby-plugin-typography",
       "name": "gatsby-plugin-typography",
       "version": "1.7.19",
@@ -278,7 +276,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-typography",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-typography",
       "packageJson": {
         "name": "gatsby-plugin-typography",
         "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
@@ -290,10 +288,7 @@
           "typography",
           "typography.js"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -327,13 +322,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ca4a197778288795f73397a659d0793e",
+        "contentDigest": "9ef4071a1f900119cdf8c741a3dd4ca7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "17b434b43e63eacd6ec8d659bbc92640",
@@ -343,7 +338,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io",
       "packageJson": {
         "name": "learnercys.github.io",
         "description": "learnercys.github.io",
@@ -393,19 +388,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e03c8372dfcfcee6447efc50ce625b28",
+        "contentDigest": "baed93ea677c327a69c6d32bd9e64542",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages",
+        "path": "/Users/cxy/Documents/gh/learnercys.github.io/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -413,7 +408,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/learnercys/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/cxy/Documents/gh/learnercys.github.io/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -423,10 +418,7 @@
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -475,7 +467,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "88f92e5866e1d0fc7986a0f2b0e5874d",
+        "contentDigest": "4f35d19604ab6d4cb6c39b77e03ee2c3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -490,118 +482,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-04-21T21:18:02.144Z",
+      "buildTime": "2021-08-28T19:19:10.697Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d7f50b7e32b6621f9754cdff5f5832c2",
+        "contentDigest": "4649fab11e5397ed46f30793bbb17227",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
-      "path": "/404/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/404.js",
-      "id": "SitePage /404/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "790a847477d2c002590facf75dba9510",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /from-the-beginning/": {
-      "layout": "index",
-      "jsonName": "from-the-beginning.json",
-      "internalComponentName": "ComponentFromTheBeginning",
-      "path": "/from-the-beginning/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/from-the-beginning.js",
-      "componentChunkName": "component---src-pages-from-the-beginning-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/from-the-beginning.js",
-      "id": "SitePage /from-the-beginning/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "c8dbfce7c2af3406e9b3cb236b8317b0",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "07fd53e23e419b1720b518a97444d005",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /resume/": {
-      "layout": "index",
-      "jsonName": "resume.json",
-      "internalComponentName": "ComponentResume",
-      "path": "/resume/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/resume.js",
-      "componentChunkName": "component---src-pages-resume-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/resume.js",
-      "id": "SitePage /resume/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "887ad7381fc9a1174e5981dca51fdced",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /test-a-node-rest-api/": {
-      "layout": "index",
-      "jsonName": "test-a-node-rest-api.json",
-      "internalComponentName": "ComponentTestANodeRestApi",
-      "path": "/test-a-node-rest-api/",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/test-a-node-rest-api.js",
-      "componentChunkName": "component---src-pages-test-a-node-rest-api-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/test-a-node-rest-api.js",
-      "id": "SitePage /test-a-node-rest-api/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0b2903238d5720df193079bb5400ee84",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -610,18 +497,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/404.js",
+      "component": "/Users/cxy/Documents/gh/learnercys.github.io/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/learnercys/Documents/gh/learnercys.github.io/src/pages/404.js",
+      "componentPath": "/Users/cxy/Documents/gh/learnercys.github.io/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b641e08722e171e28e0448fbb329de5",
+        "contentDigest": "424c8097a85d590c3acfa6bf888a9f0b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
