@@ -17,7 +17,7 @@ const Header = () => (
                 Carlos <strong>Hernandez</strong>
                 </Link>
             </h1>
-            <p>Software Engineer</p>
+            <p>Software Engineer / Software Architect / Consultant</p>
         </div>
     </div>
 )
