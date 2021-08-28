@@ -7,11 +7,6 @@ class Contact extends Component {
     render() {
         return (
             <div className={styles.contact}>
-                <h3>Pages</h3>
-                <ul>
-                    <li><i className="fa fa-home"></i> <Link to="/">Home</Link></li>
-                    <li><i className="fa fa-check"></i> <Link to="/resume">Resume</Link></li>
-                </ul>
                 <h3>Contact</h3>
                 <ul>
                     <li><i className="fa fa-envelope-o"></i> <a target="_blank" href="mailto:xyc.hernandez@gmail.com">xyc.hernandez@gmail.com</a></li>

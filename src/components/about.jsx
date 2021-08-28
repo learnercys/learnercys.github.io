@@ -6,6 +6,18 @@ class General extends Component {
         const experiences = [
             {
                 time: '2018',
+                header: 'Sestra Group',
+                place: 'Guatemala city',
+                title: 'Consultant',
+                description: `Sestra Group is a pharmaceutical and medical company that works promoting health
+                            and seek with the highest standards to establish itself as a brand recognized throughout the world.`,
+                tasks: [
+                    'Contribute to define a high level design for the company\'s vision.',
+                    'Review solutions for billing and medical consulting.',
+                    'Plan and monitor the execution of a platform for online requests and assistance.',
+                ]
+            },{
+                time: '2018-2020',
                 header: 'Cognits',
                 place: 'Guatemala city',
                 title: 'Technical Lead',
@@ -24,8 +36,7 @@ class General extends Component {
                 title: 'Software Engineer',
                 description: `Paypal is a company operating a worldwide online payments system that supports
                     online money transfers and serves as an electronic alternative to traditional
-                    paper methods. As a Software Engineer working for Paypal I develop RESTful APIs using
-                    NodeJS as main technology that are required to:`,
+                    paper methods. As a Software Engineer working at Paypal I helped to develop a service Node/Java based API :`,
                 tasks: [
                     'Handle accounts and pay bills from the U.S. to multiples countries.',
                     'Allow users to send money to multiples countries.'
