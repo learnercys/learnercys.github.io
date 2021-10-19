@@ -10,11 +10,15 @@ class General extends Component {
                 place: 'Guatemala city',
                 title: 'Consultant',
                 description: `Sestra Group is a pharmaceutical and medical company that works promoting health
-                            and seek with the highest standards to establish itself as a brand recognized throughout the world.`,
+                            and seek with the highest standards to establish itself as a brand recognized throughout the world. Between my contributions
+                            and responsabilities I can mention are: Contribute to define a high engineering level design for the company\'s vision.
+                            Review solutions for billing and medical consulting; internal and external solutions.
+                            Plan and monitor the execution of a platform for online requests and assistance.
+                            Help for solutions regarding all the technical needs on the company.`,
                 tasks: [
-                    'Contribute to define a high level design for the company\'s vision.',
-                    'Review solutions for billing and medical consulting.',
-                    'Plan and monitor the execution of a platform for online requests and assistance.',
+                    `Technologies: Javascript and Python. Frameworks: Nodejs, React and Flask.
+                    Infraestructure: AWS. Testing: Jest and Pytest. Databases: PostgreSQL and MySQL`,
+                    'Others: Jira and Confluence'
                 ]
             },{
                 time: '2018-2020',
@@ -23,11 +27,13 @@ class General extends Component {
                 title: 'Technical Lead',
                 description: `Cognits provides Digital Expertise across the SaaS Marketplace for companies looking
                     to drive quality and scale in their professional services business. With subject matter experts
-                    leading our core offerings and teams.`,
+                    leading our core offerings and teams. The projects in which I have collaborated are:
+                    Oriental bank and Promerica. In both projects I have helped to provide them solutions for:
+                    A Web and Mobile applications where clients were able to interact with their accounts.`,
                 tasks: [
-                    'Build applications that supports customer requirements.',
-                    'Help small business customers with features and personalization that attract their customers.',
-                    'Provide platforms to help engage in a highly-personalized, branded messaging application that securely integrates with your online systems.'
+                    `Technologies: Javascript and Java. Frameworks: Nodejs, React and Spring.
+                    Infraestructure: AWS. Testing: Mocha and Chai. Databases: MySQL, DynamoDB and AWS RDS`,
+                    'Others: Jira and Confluence'
                 ]
             }, {
                 time: '2015-2017',
@@ -36,10 +42,11 @@ class General extends Component {
                 title: 'Software Engineer',
                 description: `Paypal is a company operating a worldwide online payments system that supports
                     online money transfers and serves as an electronic alternative to traditional
-                    paper methods. As a Software Engineer working at Paypal I helped to develop a service Node/Java based API :`,
+                    paper methods. As a Software Engineer working at Paypal I helped to develop a service Node/Java based API like:
+                    REST Orchestration API, Internal Tools for REST APIs, Bill Payment Worker and Accounts Promotions.`,
                 tasks: [
-                    'Handle accounts and pay bills from the U.S. to multiples countries.',
-                    'Allow users to send money to multiples countries.'
+                    'Technologies: Javascript and Java. Frameworks: Nodejs, React and Spring. DevOps: AWS technologies.',
+                    'Others: Jira and Confluence'
                 ]
             }, {
                 time: '2014-2015',
