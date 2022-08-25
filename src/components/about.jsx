@@ -5,19 +5,33 @@ class General extends Component {
     render() {
         const experiences = [
             {
+                time: "2021",
+                header: "Enflux",
+                place: "Guatemala city",
+                title: "Full Stack Software Engineer",
+                description: `Enflux provides the most powerful decision support platform for higher education institutions.  We pull together
+                all your siloed and static admission and assessment data—both internal and external—and curate them into insightful, actionable reports in real-time.
+                As a Software Engineer my contributions and responsibilities are about building high valuable platforms for Academic Decision Support.`,
+                tasks: [
+                    "Technologies: Javascript/Typescript and Python. Frameworks: Nodejs, React and Flask. Infrastructure: AWS." +
+                    "Testing: Jest and Pytest. Databases: PostgreSQL",
+                    "Others: Jira and Confluence."
+                ]
+            },
+            {
                 time: '2018',
                 header: 'Sestra Group',
                 place: 'Guatemala city',
                 title: 'Consultant',
                 description: `Sestra Group is a pharmaceutical and medical company that works promoting health
                             and seek with the highest standards to establish itself as a brand recognized throughout the world. Between my contributions
-                            and responsabilities I can mention are: Contribute to define a high engineering level design for the company\'s vision.
+                            and responsibilities I can mention are: Contribute to define a high engineering level design for the company\'s vision.
                             Review solutions for billing and medical consulting; internal and external solutions.
                             Plan and monitor the execution of a platform for online requests and assistance.
                             Help for solutions regarding all the technical needs on the company.`,
                 tasks: [
-                    `Technologies: Javascript and Python. Frameworks: Nodejs, React and Flask.
-                    Infraestructure: AWS. Testing: Jest and Pytest. Databases: PostgreSQL and MySQL`,
+                    `Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React and Flask.
+                    Infrastructure: AWS. Testing: Jest and Pytest. Databases: PostgreSQL and MySQL`,
                     'Others: Jira and Confluence'
                 ]
             },{
