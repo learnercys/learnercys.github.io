@@ -8,6 +8,12 @@
     "url": "https://github.com/learnercys/learnercys.github.io.git"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-brands-svg-icons": "^6.1.2",
+    "@fortawesome/free-regular-svg-icons": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "babel-plugin-macros": "^3.1.0",
     "gatsby": "^4.21.1",
     "gatsby-plugin-sass": "^5.21.0",
     "sass": "^1.54.5"
@@ -27,6 +33,7 @@
     "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "babel-preset-gatsby": "^2.21.0",
     "prettier": "^2.7.1",
     "typescript": "^4.8.2"
   }
