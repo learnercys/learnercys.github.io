@@ -1,12 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import Link from 'gatsby-link'
-import Helmet from 'react-helmet'
+import { Link } from "gatsby"
 import Contact from '../components/contact'
 
-import "font-awesome/css/font-awesome.min.css";
-
-import styles from './index.module.css'
+import * as styles from './index.module.scss';
 
 const Header = () => (
     <div className={styles.header}>
@@ -22,25 +18,26 @@ const Header = () => (
     </div>
 )
 
-const TemplateWrapper = ({ children }) => (
+type LayoutProps = {
+  children: React.ReactElement,
+};
+
+export default function Layout({children}: LayoutProps) {
+  return (
     <div>
-        <Helmet
+      {/*<Helmet
             title="learnercys.github.io"
             meta={[
             { name: 'description', content: 'learnercys.github.io' },
             { name: 'keywords', content: 'learnercys' },
             ]}
-        />
-        <Header />
-        <div className={styles.container}>
-            <Contact/>
-            {children()}
-        </div>
+        />*/}
+      <Header />
+      <div className={styles.container}>
+        <Contact/>
+        {children}
+      </div>
     </div>
-)
-
-TemplateWrapper.propTypes = {
-    children: PropTypes.func,
+  )
 }
 
-export default TemplateWrapper

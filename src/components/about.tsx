@@ -1,9 +1,24 @@
 import React, { Component } from 'react'
-import styles from './about.module.css'
+import * as styles from './about.module.scss'
+
+
+interface Achievements {
+    time: string
+    header: string
+    place: string
+    title?: string
+    description?: string
+    tasks?: string[]
+}
+
+interface Section {
+    header: string
+    achievements: Achievements[]
+}
 
 class General extends Component {
     render() {
-        const experiences = [
+        const experiences: Achievements[] = [
             {
                 time: "2021",
                 header: "Enflux",
@@ -25,7 +40,7 @@ class General extends Component {
                 title: 'Consultant',
                 description: `Sestra Group is a pharmaceutical and medical company that works promoting health
                             and seek with the highest standards to establish itself as a brand recognized throughout the world. Between my contributions
-                            and responsibilities I can mention are: Contribute to define a high engineering level design for the company\'s vision.
+                            and responsibilities I can mention are: Contribute to define a high engineering level design for the company's vision.
                             Review solutions for billing and medical consulting; internal and external solutions.
                             Plan and monitor the execution of a platform for online requests and assistance.
                             Help for solutions regarding all the technical needs on the company.`,
@@ -78,13 +93,13 @@ class General extends Component {
             }
         ];
 
-        const experience = {
+        const experience: Section = {
             header: 'Experience',
             achievements: experiences,
         };
 
 
-        const education = {
+        const education: Section = {
             header: 'Education',
             achievements: [
                 {
@@ -95,7 +110,7 @@ class General extends Component {
             ],
         };
 
-        const volunteer = {
+        const volunteer:Section = {
             header: 'Volunteer',
             achievements: [
                 {
@@ -146,7 +161,7 @@ class General extends Component {
         );
     }
 
-    renderTasks(tasks) {
+    renderTasks(tasks: string[] | undefined) {
         if (tasks) {
             return (
                 <ul>

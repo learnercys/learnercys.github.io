@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 
-import styles from './contact.module.css'
+import * as styles from './contact.module.scss'
 
 class Contact extends Component {
     render() {

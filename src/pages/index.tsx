@@ -1,10 +1,11 @@
 import React from 'react'
 import About from '../components/about'
+import Layout from "../layouts";
 
 const ResumePage = () => (
-    <div>
+    <Layout>
         <About/>
-    </div>
+    </Layout>
 )
 
 export default ResumePage
