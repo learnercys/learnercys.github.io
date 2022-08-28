@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklearnercys_github_io=self.webpackChunklearnercys_github_io||[]).push([[941],{5352:function(e,t,n){n.r(t);var r=n(1721),l=n(7294),u=function(e){function t(){return e.apply(this,arguments)||this}return(0,r.Z)(t,e),t.prototype.render=function(){return l.createElement("div",null,l.createElement("h2",null,"Test a Node Rest API"),l.createElement("p",null,l.createElement("i",null,"Carlos.")))},t}(l.Component);t.default=u}}]);
+//# sourceMappingURL=component---src-pages-test-a-node-rest-api-tsx-301ed3a35035cd31b759.js.map
