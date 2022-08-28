@@ -1,27 +1,28 @@
 .contact {
     text-align: center;
-}
+    a {
+        color: hsla(0, 0%, 0%, .8);
+        text-decoration: none;
+    }
 
-.contact a {
-    color: hsla(0, 0%, 0%, .8);
-    text-decoration: none;
-}
+    p {
+        margin-bottom: 0.45rem;
+    }
 
-.contact p {
-    margin-bottom: 0.45rem;
-}
+    ul {
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 1.5rem;
+    }
 
-.contact ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.contact li {
-    color: inherit;
-    font-size: 0.8rem;
-    flex: 1 auto;
-    padding: 0 0.4rem;
+    li {
+        color: inherit;
+        font-size: 0.8rem;
+        flex: 1 auto;
+        padding: 0 0.4rem;
+        margin-bottom: calc(1.5rem / 2);
+    }
 }
 
 @media (min-width: 992px) {

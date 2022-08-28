@@ -7,7 +7,7 @@ import * as styles from './index.module.scss';
 const Header = () => (
     <div className={styles.header}>
         <div className={styles.box}>
-            <h1>
+            <h1 className={"text-4xl"}>
                 <Link
                 to="/">
                 Carlos <strong>Hernandez</strong>

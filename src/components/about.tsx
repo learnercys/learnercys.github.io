@@ -137,7 +137,7 @@ class General extends Component {
                 {sections.map(section => {
                     return (
                         <section>
-                            <h3>{section.header}</h3>
+                            <h3 className={"text-2xl mb-6"}>{section.header}</h3>
                             {section.achievements.map(achievement => {
                                 return (
                                     <div className={styles.achievement}>

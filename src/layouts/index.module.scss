@@ -2,22 +2,26 @@
     margin: 0 auto;
     max-width: 960px;
     padding: 2.45rem 1.0875rem;
-}
 
-.box > h1 {
-    margin: 0;
-    font-weight: lighter;
+    h1 {
+        margin: 0;
+        font-weight: lighter;
+
+        strong {
+            font-weight: bold;
+        }
+    }
 }
 
 .container {
     padding: 0 1.5rem;
     display: flex;
     flex-flow: row wrap;
-}
 
-.container > div {
-    flex: 1 100%;
-    padding: 0.4rem;
+    & > div {
+        flex: 1 100%;
+        padding: 0.4rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -53,13 +57,13 @@
     margin-bottom: 1.45rem;
     text-align: center;
     color: white;
-}
 
-.header a {
-    color: white;
-    text-decoration: none;
-}
+    a {
+        color: white;
+        text-decoration: none;
+    }
 
-.header p {
-    margin-bottom: 0;
+    p {
+        margin-bottom: 0;
+    }
 }
