@@ -28,7 +28,7 @@ class General extends Component {
                 all your siloed and static admission and assessment data—both internal and external—and curate them into insightful, actionable reports in real-time.
                 As a Software Engineer my contributions and responsibilities are about building high valuable platforms for Academic Decision Support.`,
                 tasks: [
-                    "Technologies: Javascript/Typescript and Python. Frameworks: Nodejs, React and Flask. Infrastructure: AWS." +
+                    "Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React and Flask. Infrastructure: AWS. " +
                     "Testing: Jest and Pytest. Databases: PostgreSQL",
                     "Others: Jira and Confluence."
                 ]
