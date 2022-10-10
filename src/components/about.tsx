@@ -45,7 +45,7 @@ class General extends Component {
                             Plan and monitor the execution of a platform for online requests and assistance.
                             Help for solutions regarding all the technical needs on the company.`,
                 tasks: [
-                    `Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React and Flask.
+                    `Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React, Flask and gRCP.
                     Infrastructure: GCP. Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL, MySQL and Redis`,
                     'Others: Jira and Confluence'
                 ]
