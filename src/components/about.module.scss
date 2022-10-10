@@ -6,7 +6,7 @@
     & > div:first-child {
         flex: 1 auto;
         padding-right: 0.4rem;
-        max-width: 124px;
+        max-width: 90px;
     }
 
     & > div:last-child {
@@ -37,6 +37,7 @@
 .description {
     min-height: 1rem;
     text-align: justify;
+    font-size: 0.8rem;
 }
 
 .title {

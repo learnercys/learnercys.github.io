@@ -28,8 +28,8 @@ class General extends Component {
                 all your siloed and static admission and assessment data—both internal and external—and curate them into insightful, actionable reports in real-time.
                 As a Software Engineer my contributions and responsibilities are about building high valuable platforms for Academic Decision Support.`,
                 tasks: [
-                    "Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React and Flask. Infrastructure: AWS. " +
-                    "Testing: Jest and Pytest. Databases: PostgreSQL",
+                    "Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React, Flask and Gin. Infrastructure: AWS. " +
+                    "Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL and Redis",
                     "Others: Jira and Confluence."
                 ]
             },
@@ -46,7 +46,7 @@ class General extends Component {
                             Help for solutions regarding all the technical needs on the company.`,
                 tasks: [
                     `Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React and Flask.
-                    Infrastructure: AWS. Testing: Jest and Pytest. Databases: PostgreSQL and MySQL`,
+                    Infrastructure: GCP. Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL, MySQL and Redis`,
                     'Others: Jira and Confluence'
                 ]
             },{
@@ -164,7 +164,7 @@ class General extends Component {
     renderTasks(tasks: string[] | undefined) {
         if (tasks) {
             return (
-                <ul>
+                <ul className={"text-sm"}>
                     {tasks.map(task => {
                         return (
                             <li>{task}</li>
