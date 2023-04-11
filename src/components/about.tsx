@@ -29,8 +29,7 @@ class General extends Component {
                 As a Software Engineer my contributions and responsibilities are about building high valuable platforms for Academic Decision Support.`,
                 tasks: [
                     "Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React, Flask and Gin. Infrastructure: AWS. " +
-                    "Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL and Redis",
-                    "Others: Jira and Confluence."
+                    "Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL and Redis.",
                 ]
             },
             {
@@ -46,8 +45,7 @@ class General extends Component {
                             Help for solutions regarding all the technical needs on the company.`,
                 tasks: [
                     `Technologies: Javascript/Typescript, Python and Golang. Frameworks: Nodejs, React, Flask and gRCP.
-                    Infrastructure: GCP. Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL, MySQL and Redis`,
-                    'Others: Jira and Confluence'
+                    Infrastructure: AWS. Testing: Jest, Pytest and Golang testing. Databases: PostgreSQL, MySQL and Redis.`,
                 ]
             },{
                 time: '2018-2020',
@@ -60,9 +58,8 @@ class General extends Component {
                     Oriental bank and Promerica. In both projects I have helped to provide them solutions for:
                     A Web and Mobile applications where clients were able to interact with their accounts.`,
                 tasks: [
-                    `Technologies: Javascript and Java. Frameworks: Nodejs, React and Spring.
-                    Infraestructure: AWS. Testing: Mocha and Chai. Databases: MySQL, DynamoDB and AWS RDS`,
-                    'Others: Jira and Confluence'
+                    `Technologies: Javascript and Python. Frameworks: Nodejs, React and Flask.
+                    Infraestructure: AWS. Testing: Mocha and Chai. Databases: PostgreSQL, DynamoDB and AWS RDS.`,
                 ]
             }, {
                 time: '2015-2017',
@@ -74,8 +71,7 @@ class General extends Component {
                     paper methods. As a Software Engineer working at Paypal I helped to develop a service Node/Java based API like:
                     REST Orchestration API, Internal Tools for REST APIs, Bill Payment Worker and Accounts Promotions.`,
                 tasks: [
-                    'Technologies: Javascript and Java. Frameworks: Nodejs, React and Spring. DevOps: AWS technologies.',
-                    'Others: Jira and Confluence'
+                    'Technologies: Javascript, Golang and Java. Frameworks: Nodejs, React and Spring. DevOps: AWS. Databases: PostgreSQL.',
                 ]
             }, {
                 time: '2014-2015',
@@ -88,7 +84,8 @@ class General extends Component {
                 tasks: [
                     'Develop solutions for real time geolocation',
                     'Build solutions to Data-Driven Documents based',
-                    'Integration with APIs'
+                    'Integration with APIs',
+                    'Technologies: Javascript and Python. Frameworks: Nodejs, React and Django. DevOps: AWS. Database: PostgreSQL.'
                 ]
             }
         ];
