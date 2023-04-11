@@ -33,7 +33,7 @@ class General extends Component {
                 ]
             },
             {
-                time: '2018',
+                time: '2018-2021',
                 header: 'Sestra Group',
                 place: 'Guatemala city',
                 title: 'Consultant',
